@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""a program checks if a number is positive or negative"""
 import random
 number = random.randint(-10, 10)
 if(number >= 0):
