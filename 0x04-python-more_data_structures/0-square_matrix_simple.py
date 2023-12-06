@@ -7,8 +7,7 @@ def square_matrix_simple(matrix=[]):
     value of all integers of a matrix.
     """
     new_matrix = []
-    for each_num in matrix:
-        result = list(map(lambda x: x**2, each_num))
+    for col in matrix:
+        result = list(map(lambda x: x**2, col))
         new_matrix.append(result)
     return new_matrix
-
