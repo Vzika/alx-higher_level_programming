@@ -8,4 +8,3 @@
 class Rectangle():
     """Rectangle - mpty class Rectangle that defines a rectangle"""
     pass
-
