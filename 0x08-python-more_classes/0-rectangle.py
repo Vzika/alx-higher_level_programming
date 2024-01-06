@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 0-rectangle.py module - contains Rectangle() class
 """
