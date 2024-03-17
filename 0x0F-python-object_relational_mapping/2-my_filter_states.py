@@ -14,10 +14,10 @@ if __name__ == "__main__":
         db=argv[3],
         port=3306
     )
-    cursor = c onn.cursor()
+    cursor = conn.cursor()
     query = ("SELECT * FROM states "
                 "WHERE states.name LIKE BINARY '{}' "
-                "ORDER BY states.id ASC".format(argv[4])
+                "ORDER BY states.id ASC".format(argv[4]))
     cursor.execute(query)
     results = cursor.fetchall()
     
